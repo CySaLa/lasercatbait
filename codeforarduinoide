@@ -4,7 +4,7 @@
 #include <BlynkSimpleEsp32.h>
 #include <Servo.h>
 
-#define laserPin 4
+const int laserPin = 4;
 const int sensor = 25;
 Servo servo1;
 Servo servo2;
